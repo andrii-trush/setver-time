@@ -54,4 +54,4 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor'. DIRECTORY_SEPARATOR . 'au
 $dateTime = ServerTime::getDateTime('8.8.8.8');
 ```
 
-Method `getDateTime``` returns an object ``DateTime`` which implements interface ``DateTimeInterface`` 
+Method ``getDateTime`` returns an object ``DateTime`` which implements interface ``DateTimeInterface`` 

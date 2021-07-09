@@ -1,6 +1,6 @@
 {
   "name": "andrii-trush/server-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Getting correct date and time of your server",
   "type": "library",
   "require": {
