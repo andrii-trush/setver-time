@@ -1,0 +1,31 @@
+{
+  "name": "andrii-trush/server-time",
+  "version": "1.0.0",
+  "description": "Getting correct date and time of your server",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^7.3",
+    "ext-json": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TDev Agency",
+      "email": "contact@tdev.agency"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AndriiTrush\\ServerTime\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "ext-csprng": "*"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
